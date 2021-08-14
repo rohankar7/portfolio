@@ -1,0 +1,12 @@
+.portfolioList{
+    font-size: 30px;
+    margin-right: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+.active_li{
+    background: #15023a;
+    color: #fff;
+}

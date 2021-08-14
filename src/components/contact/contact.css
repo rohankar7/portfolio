@@ -1,0 +1,58 @@
+.Contact{
+    background: lightblue;
+    display: flex;
+    align-items: center;
+}
+.contact_left{
+    flex: 1;
+    overflow: hidden;
+}
+.contact_left>img{
+    height: 80%;
+}
+.contact_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    justify-content: center;
+}
+.contact_right>h2{
+    font-size: 30px;
+}
+.contact_right>form{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact_right>form>span{
+    color: darkgreen;
+}
+.contact_right>form>input{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+textarea{
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+    /* border: none; */
+}
+textarea:focus, .contact_right>form>input:focus{
+    outline: none;
+}
+#contactSubmitButton{
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    background: crimson;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
